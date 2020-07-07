@@ -1,0 +1,198 @@
+
+<!---
+//Question# 1C: Services Page
+//Question# 1H: Pages Linked with each other using Navigation bar
+//Question# 2A: JQuery Mobile
+
+-->
+
+<!doctype html>
+<html lang = "en">
+   <head>
+      <meta charset = "utf-8">
+      <title>Services</title>  
+<link rel="stylesheet" href="../css/Recap.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/external/jquery/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/external/jquery/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/pepper-grinder/jquery-ui.min.css" />
+
+	  
+	  <script>
+         $(function() {
+            $( "#menu" ).menu();
+         });
+     
+	 $(function() {
+            $( "#tabs" ).tabs();
+         });
+    $(function(){
+        $('#js-heightControl').css('height', $(window).height() - $('html').height() +'px');
+    });
+		 
+		 </script>
+		 <style>.ui-menu { width: 150px;
+		 
+
+$( ":header" ).css({ background: "#ccc", color: "blue" });
+		 }</style>
+
+ <style>
+.navbar-5 a {
+  float: left;
+  display: block;
+  color: white;
+  font-size:18px;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar-5 p.right {
+  float: right;
+  padding: 0px 6% 0px 0px;
+  color: white;
+}
+
+.navbar-5 button {
+  float: right;
+  display: block;
+  font-size:20px;
+  color: black;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+}
+
+
+.navbar-5 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar-5 button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar-5 {
+  overflow: hidden;
+  background-color: Black;
+  padding:1% 4% 1% 6%;
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+</style>
+   </head>
+   <body>
+   <div data-role="page" data-theme="a">
+		<div>
+		<h1><center>Services</center></h1>
+		</div>
+
+	  <div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">MAINTENANCE SCHEDULES</a></li>
+    <li><a href="#tabs-2">TIRE SERVICES</a></li>
+    <li><a href="#tabs-3">LUBE, OIL AND FILTER CHANGE</a></li>
+    <li><a href="#tabs-4">BRAKE REPAIRS AND SERVICES</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>We highly recommend using one of our scheduled preventative maintenance programs and you can view the program levels here:</br>
+<ul>
+<li>Schedule 1</li>
+<li>Schedule 2</li>
+<li>Schedule 3</li>
+<li>Schedule 4</li>
+
+</ul>
+We are legally authorized to perform regularly scheduled maintenance on all new vehicles, and that the vehicle manufacturer is bound to honor it’s warranty obligations.</p>
+  </div>
+  <div id="tabs-2">
+    <p><h3>OUR PASSION IS YOUR SAFETY</h3>
+Since 2001 we have been keeping the drivers of Central Alberta safe on the road.
+
+<h3>OUR LEVEL OF SERVICE</h3>
+We offer complete tire service, from high performance to all winter driving needs. We are able to mount, balance and repair tires for all European Vehicles, using only the latest in tire technology. Whether you're looking for Ice and Snow, Mud and All Terrain, Run Flat, All Weather, High Performance, High Fashion or Practicality, we will utilize our access to a large variety of wheel and tire manufacturers to find the best tires to suit the needs of your vehicle.</br>
+
+<h3>OUR PROMISE</h3>
+We use our expertise to ensure fitment, sizing, brand and style are all perfectly suited to you and your vehicle, guaranteeing the best ride, safest performance, and overall lowest cost. We utilize amazing companies like extremewheel.ca and rwcwheels.com and have access to both Winter and Summer wheel packages. We service what we sell and are here for you should an issue ever arise.</p>
+  </div>
+  <div id="tabs-3">
+    <p><h3>Lube, Oil and Filter Changes</h3>
+To get the very best in oil change services, you can trust the professionally licensed technicians at Beech Motorworks. We use only the best parts and supplies and have the latest, modern technology and equipment at our auto repair facilities.
+
+Beech Motorworks uses Castrol brand oil for all our lube, oil and filter change services.
+
+<h2>Basic Oil Change – $49.55*</h2>
+
+Includes:</br>
+<ul>
+<li>Castrol GTX oil change</li>
+<li>Alignment check (valued at $59.00, does not include set-up of vehicle)</li>
+<li>Full detailing service ($59.00 value)</li>
+<li>Basic Synthetic Oil Change – $99.95</li>
+</ul>
+
+Includes:</br>
+<ul>
+<li>Castrol Edge Synthetic Oil Change</li>
+<li>Add a Healthier Care (Full Vehicle) Inspection to any oil change for $29.95 – includes comprehensive vehicle inspection and review of scheduled maintenance services</li>
+
+</ul>
+</p>
+  </div>
+<div id="tabs-4">
+    <p><h3>Brake Repairs and Services</h3>
+There’s no room for second best when it comes to your brakes. Our professional, licensed Technicians ensure that your vehicle is safe and that your brake system provides maximum protection and stopping power.</br></br>
+
+The experienced Technicians of Beech Motorworks are trained and certified to service and repair all your vehicle’s braking system needs – import and domestic. We also guarantee that all parts installed on your vehicle meet and/or exceed the manufacturer’s specifications.</br></br>
+
+However, the use of quality brake parts is only the start of our quality brake service. It continues with doing the job correctly, not taking short cuts, and providing you with a brake system you and your family can not only trust, but count on.</br></br>
+</br>
+We can perform the following:</br>
+<ul>
+<li>ABS system testing, service or repair</li>
+<li>Brake fluid flush and service</li>
+<li>Brake rotors and drums</li>
+<li>Complete disc brake repair or service</li>
+<li>Complete drum brake repair or service</li>
+<li>Machining</li>
+<li>Master cylinder service or repair</li>
+<li>Parking brake repair or service</li>
+<li>Power boosters</li>
+<li>Testing and inspection of pulls, noises, fading or other braking problems</li>
+<li>Wheel cylinder and caliper replacement</li>
+</ul>
+</p>
+  </div>
+</div>
+	  
+</div>	
+<div id="js-heightControl" style="height: 0;">&nbsp;</div>
+<div data-role="footer">
+
+		<!----//Question# 1H: Pages Linked with each other using Navigation bar 	--->
+		
+		<div class="navbar-5" style="text-shadow:none">
+  <a href=".\homepage.html" rel="external">Home</a>
+  <a href=".\products.html" rel="external">Products</a>
+  <a href=".\Services.html" rel="external">Services</a>
+  <a href=".\Gallery.html" rel="external">Gallery</a>
+  <a href=".\selectors.html" rel="external">Selectors</a>
+  <a href=".\faq.html" rel="external">FAQ</a>
+  <a href=".\aboutus.html" rel="external">About Us</a>
+  <p class="right"> &copy; Auto Shop, Inc.2020</p>
+  </div>
+	</div><!-- /footer -->
+   </body>
+</html>

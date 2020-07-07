@@ -1,0 +1,217 @@
+
+<!---
+//Question# 1B: Product Page
+//Question# 1H: Pages Linked with each other using Navigation bar
+//Question# 2A: JQuery Mobile
+//Question# 3C: Plugin-2
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Button</title>
+	<link rel="stylesheet" href="../css/Recap.min.css" />
+	<link rel="stylesheet" href="../css/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="../js/productplugin.js"></script>
+
+
+<style>
+
+
+.navbar-5 a {
+  float: left;
+  display: block;
+  color: white;
+  font-size:18px;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar-5 p.right {
+  float: right;
+  padding: 0px 6% 0px 0px;
+  color: white;
+}
+
+.navbar-5 button {
+  float: right;
+  display: block;
+  font-size:20px;
+  color: black;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+}
+
+
+.navbar-5 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar-5 button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar-5 {
+  overflow: hidden;
+  background-color: Black;
+  padding:1% 4% 1% 6%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+</style>
+</head>
+<body>
+
+
+<!-- Start of first page: #one -->
+<div data-role="page" id="one">
+
+	<div data-role="header">
+		<h1>Our Products</h1>
+	</div><!-- /header 
+	
+				//Question# 3C: Plugin-2
+				-->
+
+	<div data-role="content" data-theme="" class="ui-content">
+		<h2 class ="animation">Best Products of our shop</h2>
+
+
+
+<table class ="one">
+<tr>
+		<td><p><a href="#popup" class="ui-btn ui-shadow ui-corner-all" data-rel="dialog" data-transition="pop"><img src = "../images/product.jpg" height="250px" width="100%"><p>Engine oil <br>($45.00 )</p></a></p></td>
+		<td><p><a href="#popup1" class="ui-btn ui-shadow ui-corner-all" data-rel="dialog" data-transition="pop"><img src = "../images/product1.jpg" height="250px" width="100%"> <p>Sound System <br>($220.00) </p></a></p></td>
+
+		<td><p><a href="#popup2" class="ui-btn ui-shadow ui-corner-all" data-rel="dialog" data-transition="pop"><img src = "../images/product2.jpg" height="250px" width="100%"> <p>New Tyres <br>($150) </p></a></p></td>
+		<td><p><a href="#popup3" class="ui-btn ui-shadow ui-corner-all" data-rel="dialog" data-transition="pop"><img src = "../images/product3.jpg" height="250px" width="100%"> <p>Car Engine <br>($945.00)</p></a></p></td>
+</tr>
+</table>
+</div>
+		
+		<!----//Question# 1H: Pages Linked with each other using Navigation bar 	--->
+	
+	<div class="navbar-5" style="text-shadow:none">
+  <a href=".\homepage.html" rel="external">Home</a>
+  <a href=".\products.html" rel="external">Products</a>
+  <a href=".\Services.html" rel="external">Services</a>
+  <a href=".\Gallery.html" rel="external">Gallery</a>
+  <a href=".\selectors.html" rel="external">Selectors</a>
+  <a href=".\faq.html" rel="external">FAQ</a>
+  <a href=".\aboutus.html" rel="external">About Us</a>
+  <p class="right"> &copy; Auto Shop, Inc.2020</p>
+  </div>
+
+	
+</div><!-- /page one -->
+
+<!-- Start of third page: #popup -->
+<div data-role="page" id="popup">
+
+	<div data-role="header" data-theme="">
+		<h1>Dialog</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<h2>Engine oil</h2>
+		<p>Motor oil, engine oil, or engine lubricant is any of various substances comprising base oils enhanced with various additives, particularly antiwear additive in addition to detergents, dispersants and, for multi-grade oils, viscosity index improvers. Motor oil is used for lubrication of internal combustion engines.</p>
+<p>We have Several kind of Engine oil-</p>
+<p>1.Muscle cars oil</p>
+<p>2.Sports Cars oil</p>
+<p>3.Regular Cars oil</p>
+<p>4.desi oil</p>
+		<p><a href="#one" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ui-btn-icon-left">Back to Products Page</a>
+		<a href="#buy" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back">Buy</a></p>
+	</div><!-- /content -->
+
+
+
+</div><!-- /page popup -->
+<div data-role="page" id="popup1">
+
+	<div data-role="header" data-theme="">
+		<h1>Dialog</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<h2>Sound System</h2>
+		<p>A sound reinforcement system is the combination of microphones, signal processors, amplifiers, and loudspeakers in enclosures all controlled by a mixing console that makes live or pre-recorded sounds louder and may also distribute those sounds to a larger or more distant audience.</p>
+<p>1. Bass System</p>
+<p>2.single speaker</p>
+<p>3.Dj System </p>
+		<p><a href="#one" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ui-btn-icon-left">Back to Products Page</a>
+		<a href="#buy" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back">Buy</a></p>
+	</div><!-- /content -->
+
+
+
+</div><!-- /page popup -->
+
+<div data-role="page" id="popup2">
+
+	<div data-role="header" data-theme="">
+		<h1>Dialog</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<h2>Tyres</h2>
+		<p>Motor oil, engine oil, or engine lubricant is any of various substances comprising base oils enhanced with various additives, particularly antiwear additive in addition to detergents, dispersants and, for multi-grade oils, viscosity index improvers. Motor oil is used for lubrication of internal combustion engines.</p>
+<p>We have Several kind of Engine oil-</p>
+<p>1.Muscle cars oil</p>
+<p>2.Sports Cars oil</p>
+<p>3.Regular Cars oil</p>
+<p>4.desi oil</p>
+		<p><a href="#one" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ui-btn-icon-left">Back to Products Page</a>
+		<a href="#buy" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ">Buy</a></p>
+	</div><!-- /content -->
+
+
+
+</div><!-- /page popup -->
+
+<div data-role="page" id="popup3">
+
+	<div data-role="header" data-theme="">
+		<h1>Dialog</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<h2>Engine</h2>
+		<p>We provide Engines at very best price as compared to market. we also customize your engine as your choice.</p>
+<p>engine is for </p>
+<p>1. muscle car </p>
+<p>2.Sports car</p>
+<p>3. Regular Car. </p>
+		<p><a href="#one" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ui-btn-icon-left">Back to Products Page</a>
+		<a href="#buy" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back">Buy</a></p>
+	</div><!-- /content -->
+
+
+
+</div><!-- /page popup -->
+
+</div><!-- /page one -->
+</body>
+</html>

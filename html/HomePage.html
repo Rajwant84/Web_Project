@@ -1,0 +1,350 @@
+
+
+<!---
+//Question# 1A: Main Page, Welcome Page, Student Id and student Name
+//Question# 1E: Login page 
+//Question# 1F: Register page
+//Question# 1G: JQuery Page
+//Question# 1H: Pages Linked with each other using Navigation bar
+//Question# 1I: Dynamic Page
+//Question# 2A: JQuery Mobile
+//Question# 2B: Login Page and Register page on same page
+//Question# 3A: Form validation using jQuery
+//Question# 3B: Validated user is not a robot 
+//Question# 3C: Using more than 10 different mathematical questions
+
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Under Hood-Drive</title>
+	<link rel="stylesheet" href="../css/Recap.min.css" />
+	<link rel="stylesheet" href="../css/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-------//Question# 3A: Login Form validation using jQuery---->
+	<script src="../js/validationScript.js"></script>
+	<!-------//Question# 3A: Registration Form validation using jQuery---->
+	<script src="../js/script1.js"></script>
+	<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/pepper-grinder/jquery-ui.min.css" />
+	<script src="../js/aboutusplugin.js"></script>
+<script src="../js/jquery.tiltedpage-scroll.min.js"></script>
+<script src="../js/jquery.tiltedpage-scroll.js"></script>
+
+		<!----	//Question# 3C: Using more than 10 different mathematical questions--->
+	
+	
+
+<style>
+#one {
+  background-image: url("../images/lamborghini.jpeg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  height:100%;
+}
+#three {
+  background-image: url("../images/lamborghini.jpeg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  height:100%;
+}
+#login {
+  background-image: url("../images/login.jpg");
+}
+#signup {
+  background-image: url("../images/signup3.jpeg");
+  text-shadow:none;
+  color: black;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 250%;
+}
+.top-right {
+	float: right;
+}
+
+
+.navbar-5 a {
+  float: left;
+  display: block;
+  color: white;
+  font-size:18px;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar-5 p.right {
+  float: right;
+  padding: 0px 6% 0px 0px;
+  color: white;
+}
+
+.navbar-5 button {
+  float: right;
+  display: block;
+  font-size:20px;
+  color: black;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+}
+
+
+.navbar-5 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar-5 button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar-5 {
+  overflow: hidden;
+  background-color: Black;
+  padding:1% 4% 1% 6%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+</style>
+<script>
+
+
+</script>
+</head>
+
+<body>
+	<!--- //Question# 1A: Main Page, Welcome Page, Student Id and student Name -->
+<!--  page: #one -->
+
+<div data-role="page" id="one">
+
+
+	<div data-role="content" data-theme="b" id="one" class="ui-content">
+
+		
+<!-----	//Question# 2A: JQuery Mobile		---->
+	<div class="top-right">	<p><a href="#login" class="ui-btn ui-btn-inline ui-btn-a">SIGN IN</a>
+		<a href="#signup" class="ui-btn ui-btn-inline ui-btn-a">CREATE AN ACCOUNT</a></p>
+		</div>
+		<img src="..\images\Lamborghini-logo.png" alt="Under Hood logo" width="200" height="100"
+		
+		</div>
+		<h2> Developed By: </h2>
+		<ul>
+<li><strong>KULDEEP SINGH</strong></li>
+<li><strong>NAVJOT KAUR</strong></li>
+<li><strong>SAHIL SHARMA</strong></li>
+<li><strong>RAJWANT SINGH</strong></li>
+</ul>
+	
+	</div><!-- /content -->
+	
+	
+<div data-role="footer" data-theme="b" style="background-color:white">
+<div class="second" style="background-color:white; color:black; margin: 100px 100px 100px 100px; font-weight:normal; font-family: Arial, Helvetica, sans-serif; "><h1>Welcome to Auto Workshop car repair centre.</h1>
+<h3>Auto Workshop is conveniently located just off Northfields Avenue in Ealing.</h3>
+<p class="intro">As an independent garage established in 1978, Auto Workshop has built up long-standing relationships with many of its customers, through its focus on customer care, professional expertise and standard and quality of work.</p>
+<p>Auto Workshop is fully equipped with the most advanced diagnostic equipment and tools and has access to the most up to date manufacturers’ technical data which enables our workshop to offer dealership level diagnostic services, vehicle servicing, electrical and mechanical repairs and MOT testing.</p>
+<p>Our highly skilled technicians are fully qualified to work on all makes and models and attend to all vehicles with exceptional expertise, however we provide specialist care for Audi, Volkswagen, Seat and Skoda.</p>
+<p>The quality of our work is paramount, so we only use genuine OE parts or parts of equivalent quality, as well as top-branded lubricants and motor oil when servicing your vehicle.</p>
+<p>We do our utmost to provide our customers with a first class,<p> efficient and friendly service, from investigating and diagnosing faults through to providing sound advice on all technical and mechanical problems.</p> At Auto Workshop we offer real value for money and a cost-effective alternative to the franchised main dealers.</p>
+<p>As an independent garage Auto Workshop is:</p>
+<ul>
+<li><strong>Small enough to offer personal service</strong></li>
+<li><strong>Fully equipped to service and repair today’s technologically advanced vehicles</strong></li>
+<li><strong>Only use quality OE parts or parts of equivalent standard</strong></li>
+<li><strong>Invest in the latest diagnostic equipment</strong></li>
+<li><strong>Employ highly skilled technicians</strong></li>
+<li><strong>Represent real value for money</strong></li>
+</ul>
+
+</div>
+<div style="padding:20px; margin:10px 100px 50px 100px;">
+	<table>
+<tr>
+<td><img src="..\images\Garage-01.jpg" width="90%" height="20%"></td>
+<td><img src="..\images\Garage-02.jpg" width="90%" height="20%"></td>
+<td><img src="..\images\Garage-03.jpg" width="90%" height="20%"></td>
+</tr>
+</table>
+</div>
+</div><!-- /footer -->
+
+	<!----//Question# 1H: Pages Linked with each other using Navigation bar 	--->
+
+	<div class="navbar-5" style="text-shadow:none">
+  <a href=".\homepage.html" rel="external">Home</a>
+  <a href=".\products.html" rel="external">Products</a>
+  <a href=".\Services.html" rel="external">Services</a>
+  <a href=".\Gallery.html" rel="external">Gallery</a>
+  <a href=".\selectors.html" rel="external">Selectors</a>
+  <a href=".\faq.html" rel="external">FAQ</a>
+  <a href=".\aboutus.html" rel="external">About Us</a>
+  <p class="right"> &copy; Auto Shop, Inc.2020</p>
+  </div>
+	
+</div><!-- /page one -->
+
+
+<!-- Login page: #three -->
+<div data-role="page" id="three">
+
+
+	<div data-role="content" data-theme="b" id="three" class="ui-content">
+		
+
+	<div class="top-right">	<p>Welcome User!!!			<!-----//Question# 2A: JQuery Mobile---->
+		<a href="#one" class="ui-btn ui-btn-inline ui-btn-a">SIGN OUT</a></p>
+		</div>
+		<img src="..\images\Lamborghini-logo.png" alt="Under Hood logo" width="200" height="100"
+		</div>
+		
+	<div class="row"> 
+  <div class="column">
+    
+  </div>
+  
+  <div class="column">
+
+  </div> 
+   
+  </div>
+
+	</div><!-- /content -->
+	
+	
+<div data-role="footer" data-theme="b" style="background-color:white">
+<div style="background-color:white; color:black; margin: 100px 100px 100px 100px; font-weight:normal; font-family: Arial, Helvetica, sans-serif; "><h1>Welcome to Auto Workshop car repair centre.</h1>
+<h3>Auto Workshop is conveniently located just off Northfields Avenue in Ealing.</h3>
+<p id="intro">As an independent garage established in 1978, Auto Workshop has built up long-standing relationships with many of its customers, through its focus on customer care, professional expertise and standard and quality of work.</p>
+<p>Auto Workshop is fully equipped with the most advanced diagnostic equipment and tools and has access to the most up to date manufacturers’ technical data which enables our workshop to offer dealership level diagnostic services, vehicle servicing, electrical and mechanical repairs and MOT testing.</p>
+<p><span>Our highly skilled technicians are fully qualified to work on all makes and models and attend to all vehicles with exceptional expertise, however we provide specialist care for Audi, Volkswagen, Seat and Skoda.</span></p>
+<p>The quality of our work is paramount, so we only use genuine OE parts or parts of equivalent quality, as well as top-branded lubricants and motor oil when servicing your vehicle.</p>
+<p>We do our utmost to provide our customers with a first class, efficient and friendly service, from investigating and diagnosing faults through to providing sound advice on all technical and mechanical problems. At Auto Workshop we offer real value for money and a cost-effective alternative to the franchised main dealers.</p>
+<p>As an independent garage Auto Workshop is:</p>
+<ul>
+<li><strong>Small enough to offer personal service</strong></li>
+<li><strong>Fully equipped to service and repair today’s technologically advanced vehicles</strong></li>
+<li><strong>Only use quality OE parts or parts of equivalent standard</strong></li>
+<li><strong>Invest in the latest diagnostic equipment</strong></li>
+<li><strong>Employ highly skilled technicians</strong></li>
+<li><strong>Represent real value for money</strong></li>
+</ul>
+
+</div>
+<div style="padding:20px; margin:10px 100px 50px 100px;">
+	<table>
+<tr>
+<td><img src="..\images\Garage-01.jpg" width="90%" height="20%"></td>
+<td><img src="..\images\Garage-02.jpg" width="90%" height="20%"></td>
+<td><img src="..\images\Garage-03.jpg" width="90%" height="20%"></td>
+</tr>
+</table>
+</div>
+</div><!-- /footer -->
+
+	<!----//Question# 1H: Pages Linked with each other using Navigation bar 	--->
+	
+	<div class="navbar-5" style="text-shadow:none">
+  <a href=".\homepage.html" rel="external">Home</a>
+  <a href=".\products.html" rel="external">Products</a>
+  <a href=".\Services.html" rel="external">Services</a>
+  <a href=".\Gallery.html" rel="external">Gallery</a>
+  <a href=".\selectors.html" rel="external">Selectors</a>
+  <a href=".\faq.html"  rel="external">FAQ</a>
+  <a href=".\aboutus.html" rel="external">About Us</a>
+  <p class="right"> &copy; Auto Shop, Inc.2020</p>
+  </div>
+
+	
+</div><!-- /page three -->
+
+
+<!-- Start of form page: #signup
+									//Question# 1F: Register page			-->
+									
+<div data-role="page" id="signup">
+
+	<div data-role="header" data-theme="a" id="signup">
+		
+	</div><!-- /header -
+	
+	//Question# 3B: Validated user is not a robot 
+	--->
+
+	<div role="main" class="ui-content">
+		<h2>CREATE AN ACCOUNT</h2>
+		<form id="registration_form" action="#" data-target="./aboutus.html" method="post">
+<table>
+<tr><td>Username: </td><td><input type="text" class="form_text" id="form_username"></td><td><span class="error_form" id="username_error_message"></span></td></tr>
+<tr><td>Password: </td><td><input type="password" class="form_text" id="form_password"></td><td><span class="error_form" id="password_error_message"></span></td></tr>
+<tr><td>Retype Password: </td><td><input type="password" class="form_text" id="form_retype_password"></td><td><span class="error_form" id="retype_password_error_message"></span></td></tr>
+<tr><td>Email: </td><td><input type="text" class="form_text" id="form_email"></td><td><span class="error_form" id="email_error_message"></span></td></tr>
+<tr><td>City: </td><td><input type="text" class="form_text" id="form_city"></td><td><span class="error_form" id="city_error_message"></span></td></tr>
+<tr><td>Postal Code: </td><td><input type="text" class="form_text" id="form_postal"></td><td><span class="error_form" id="postal_error_message"></span></td></tr>
+<tr><td></td><td><p>Solve this simple math Problem and the Register button will appear</p>
+<span id="number"></span> + <span id="number1"></span> = 
+<input type="text" value="" id="testInput" style="width: 5em;" />
+ 
+ <input type='submit' id="mathTest" class='ui-btn ui-btn-inline ui-btn-a' value='Register' /><br /></td><td></td></tr>
+
+</table>
+</form>
+<!-----//Question# 2A: JQuery Mobile--->
+<a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back to Home Page</a>
+
+</div><!-- /page popup -->
+
+</div><!-- /page one -->
+
+<!-- Start of form page: #login 
+	//Question# 1E: Login page 
+-->
+<div data-role="page" id="login">
+
+	<div data-role="header" data-theme="b" id="login">
+		
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<h2>SIGN IN</h2>
+		
+		
+	<form id="login_form"  method="post">
+<table>
+<tr><td>Username: </td><td><input type="text" class="form_text" id="form_username"></td><td><span class="error_form" id="username_error_message"></span></td></tr>
+<tr><td>Password: </td><td><input type="password" class="form_text" id="form_password"></td><td><span class="error_form" id="password_error_message"></span></td></tr>
+
+<tr><td></td><td><a href="#three" class="ui-btn ui-shadow ui-corner-all" >Login</a></td><td></td></tr>
+
+</table>
+</form>
+
+</div><!-- /page popup -->
+
+
+
+<body>
+</html>
